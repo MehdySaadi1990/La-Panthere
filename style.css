@@ -361,6 +361,15 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.citation{
+    text-align-last: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+.trust{
+    font-size: 20px;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -650,8 +659,8 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
-    color: #575757!important;
+    font-weight: bold;
+    color: #000000!important;
 }
 
 .container {
@@ -677,7 +686,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -727,7 +736,8 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    color: rgb#333333!important;
+    opacity: 0.75;
 }
 
 .icons {
@@ -775,7 +785,8 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
+    font-weight: bold;
 }
 
 .btn-atomic-tangerine {
@@ -1025,6 +1036,10 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .bloc-sm .row-no-gutters{
+        display: flex;
+        justify-content: space-around;
     }
 }
 
