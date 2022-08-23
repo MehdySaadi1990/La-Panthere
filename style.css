@@ -361,14 +361,26 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.presentation{
+    margin: auto;
+    max-width: 700px;
+    padding-bottom: 20px;
+}
 .citation{
     text-align-last: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 200;
     font-size: 20px;
+    font-style: italic;
+}
+.citation__auteur{
+    font-weight: 100;
 }
 .trust{
     font-size: 20px;
+    max-width: 50%;
+    margin: auto;
+    font-weight: 400;
 }
 
 @media (min-width: 768px) {
@@ -445,7 +457,6 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -659,7 +670,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: bold;
+    font-weight: 400;
     color: #000000!important;
 }
 
@@ -720,7 +731,6 @@ h2 {
 
 h3 {
     font-size: 15px;
-    text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
@@ -792,6 +802,7 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    filter: contrast(1.5);
 }
 
 .btn-atomic-tangerine:hover {
