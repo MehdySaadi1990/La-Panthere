@@ -2483,8 +2483,8 @@ textarea.input-lg {
 .btn:active.focus,
 .btn:active:focus,
 .btn:focus {
-    outline: thin dotted;
-    outline: 5px auto -webkit-focus-ring-color;
+    outline: 1px dotted #000000;
+    outline: 2px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
 
@@ -4025,7 +4025,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-toggle:focus {
-    outline: 0
+    outline: 2px dotted #000000
 }
 
 .navbar-toggle .icon-bar {

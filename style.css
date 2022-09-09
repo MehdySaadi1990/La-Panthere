@@ -7,10 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a,
-button {
-    transition: all .3s ease-in-out;
-    outline: none!important;
+a:focus,
+button:focus {
+    transition: all 300ms ease-in-out;
+    outline: 2px dotted #000000;
 }
 
 a:hover {
@@ -480,8 +480,8 @@ nav .caret {
     background: rgba(0, 0, 0, .3);
 }
 
-button {
-    outline: none!important;
+button:focus {
+    outline: 2px dotted #000000;
 }
 
 .btn-rd {
@@ -804,7 +804,8 @@ h4 {
     filter: contrast(1.5);
 }
 
-.btn-atomic-tangerine:hover {
+.btn-atomic-tangerine:hover,
+.btn-atomic-tangerine:focus {
     background: #c27956!important;
     color: #FFFFFF!important;
 }
